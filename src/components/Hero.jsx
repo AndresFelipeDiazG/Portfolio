@@ -101,11 +101,21 @@ const Hero = () => {
                     </a>
 
                     <div className="flex justify-center items-center gap-6 text-4xl md:text-6xl text-blue-500 z-20">
-                        <motion.a whileHover={{ scale: 1.2 }} href={import.meta.env.VITE_GITHUB_URL}>
+                        <motion.a
+                            whileHover={{ scale: 1.2 }}
+                            href={import.meta.env.VITE_GITHUB_URL}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <AiOutlineGithub />
                         </motion.a>
 
-                        <motion.a whileHover={{ scale: 1.2 }} href={import.meta.env.VITE_LINKEDIN_URL}>
+                        <motion.a
+                            whileHover={{ scale: 1.2 }}
+                            href={import.meta.env.VITE_LINKEDIN_URL}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <AiOutlineLinkedin />
                         </motion.a>
 
