@@ -46,6 +46,13 @@ const Navbar = ({menuOpen, setMenuOpen}) => {
                         Proyectos{" "}
                     </a>
                     <a 
+                        href="#experience" 
+                        className="text-gray-300 hove:text-white transition-colors"
+                    >
+                        {" "}
+                        Experiencia Laboral{" "}
+                    </a>
+                    <a 
                         href="#contact" 
                         className="text-gray-300 hove:text-white transition-colors"
                     >

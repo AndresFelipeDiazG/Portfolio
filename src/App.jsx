@@ -9,6 +9,7 @@ import About from './components/section/About';
 import Projects from './components/section/Projects';
 import Contact from './components/section/Contact';
 import Hero from './components/Hero';
+import Experience from './components/section/Experience';
 
 
 function App() {
@@ -25,16 +26,17 @@ function App() {
     <Hero />
     {/* <Home /> */}
     <About />
+    <Experience />
     <Projects />
     <Contact />
     </div>
       
       {!isLoading && <LoadingScreen onComplete= {() => setIsLoading(true)} />} {" "}
-      <div 
+      {/* <div 
         className={`min-h-screen transition-opacity duration-700 ${
           isLoading ? "opacity-100" : "opacity-0"
           } bg-text-gray-100`}>
-      </div>
+      </div> */}
       
       
     </>

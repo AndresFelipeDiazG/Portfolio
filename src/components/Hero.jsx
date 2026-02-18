@@ -1,5 +1,5 @@
 import React from "react";
-import profilepic from "../assets/profpic2.jpg";
+import profilepic from "../assets/photo.jpg";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import {
@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <section
     id="home" 
-    className="min-h-screen flex items-center justify-center relative"
+    className="min-h-screen flex items-center justify-center relative pt-20"
     >
 
         <div className="text-center z-10 px-4">
@@ -38,7 +38,7 @@ const Hero = () => {
             >
                 <TypeAnimation
                     sequence={[
-                        "Desarrollador Fullstack",
+                        "Desarrollador Fullstack | Software Engineer",
                         3000
                     ]}
                     speed={50}
@@ -53,7 +53,7 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 0.5 }}
                 className="text-gray-200 md:text-5xl text-5xl tracking-tight mb-4"
                 >
-                    Hola !!, Mi nombre es<br/>
+                    Mi nombre es <br/>
                     <span className="text-5xl md:text-7x1 font-bold mb-6 mt-6 gradient-text bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
                         Andres Felipe Diaz Gonzalez
                     </span>
@@ -66,8 +66,18 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1 }}
                 className="text-gray-400 text-lg mb-8 max-w-lg mx-auto text-center leading-relaxed"
                 >
-                    Ingeniero de software en formación, apasionado por el desarrollo web full stack, la resolución de problemas y el aprendizaje continuo.
-                    Me gusta crear soluciones eficientes y escalables, y siempre estoy aprendiendo nuevas tecnologías para mejorar mis habilidades.
+                    Ingeniero de Software especializado en desarrollo backend y arquitectura de aplicaciones web. 
+                    Construyo APIs escalables y soluciones robustas utilizando Node.js, Spring Boot y bases de datos relacionales y NoSQL.
+                </motion.p>
+
+                <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1, delay: 1 }}
+                className="text-gray-400 text-lg mb-8 max-w-lg mx-auto text-center leading-relaxed"
+                >
+                    Abierto a oportunidades como Backend Developer Junior o Full Stack Developer.
                 </motion.p>
 
                 <motion.div
