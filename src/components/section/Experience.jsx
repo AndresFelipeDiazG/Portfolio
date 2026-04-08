@@ -59,7 +59,7 @@ const Experience = () => {
                     <h3 className="text-xl font-bold mb-2"> Especialista en Automatización e Integraciones </h3>
                     <p className="text-gray-400">
                      <ul className="list-disc list-inside text-gray-300 space-y-2">
-                            <strong> Factech Group S.A.S | 10/2025 – 03/31 </strong>
+                            <strong> Factech Group S.A.S | 10/2025 – 03/2025 </strong>
                         <li>
                             Diseño e implementación de automatizaciones en plataformas CRM.
                         </li>
