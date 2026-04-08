@@ -125,11 +125,12 @@ const Hero = () => {
                         <a 
                             href={
                                 language === "es"
-                                ? "https://drive.google.com/file/d/1om3j8DDYOuaj7FkR0lKo2NKXsKVuXGAz/view?usp=drive_link"
-                                : "https://drive.google.com/file/d/1srl4V0bJ95r7ovw7_IeZE64wBRg2SB_W/view?usp=drive_link"
+                                ? "URL_CV_ES"
+                                : "URL_CV_EN"
                             }
-                            download
-                        >
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
                             <motion.button 
                                 whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
                                 className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 
