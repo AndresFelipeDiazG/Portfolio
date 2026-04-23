@@ -35,10 +35,16 @@ const About = () => {
 
             </h2>
             <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                <p className="text-gray-300 mb-6 mt-4">
-                Soy Ingeniero de Software con experiencia en desarrollo full stack, con mayor enfoque en backend y arquitectura de sistemas.
-                He trabajado en la construcción de APIs REST, autenticación con JWT, manejo de bases de datos PostgreSQL y MongoDB, y despliegue 
-                en entornos cloud. También tengo experiencia en automatización de procesos y administración de plataformas CRM mediante integraciones técnicas.
+                <p className="text-gray-300 mb-4 mt-4">
+                    Soy Ingeniero de Software con enfoque en backend y arquitectura. Tengo experiencia desarrollando
+                    APIs REST, integraciones entre sistemas y soluciones escalables en entornos reales.
+                </p>
+                <p className="text-gray-300 mb-4">
+                    He trabajado con PostgreSQL, MySQL y MongoDB, así como en despliegues con AWS y Docker,
+                    participando en resolución de errores en producción y mejora continua de plataformas.
+                </p>
+                <p className="text-gray-300 mb-6">
+                    🎯 Busco seguir creciendo como Full Stack Engineer en proyectos desafiantes.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

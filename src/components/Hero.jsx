@@ -69,8 +69,8 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1 }}
                 className="text-gray-400 text-lg mb-8 max-w-lg mx-auto text-center leading-relaxed"
                 >
-                    Ingeniero de Software especializado en desarrollo backend y arquitectura de aplicaciones web. 
-                    Construyo APIs escalables y soluciones robustas utilizando Node.js, Spring Boot y bases de datos relacionales y NoSQL.
+                    Ingeniero de Software y Full Stack Developer con +3 años de experiencia,
+                    enfocado en backend, APIs e integraciones.
                 </motion.p>
 
                 <motion.p
@@ -80,7 +80,18 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1 }}
                 className="text-gray-400 text-lg mb-8 max-w-lg mx-auto text-center leading-relaxed"
                 >
-                    Abierto a oportunidades como Backend Developer Junior o Full Stack Developer.
+                    Construyo soluciones escalables con Java (Spring Boot), Go y Node.js (NestJS),
+                    aplicando buenas prácticas y arquitectura limpia.
+                </motion.p>
+
+                <motion.p
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 1, delay: 1 }}
+                className="text-gray-400 text-lg mb-8 max-w-lg mx-auto text-center leading-relaxed"
+                >
+                    Abierto a oportunidades como Full Stack o Backend Engineer.
                 </motion.p>
 
                 <motion.div
